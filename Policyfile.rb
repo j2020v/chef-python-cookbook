@@ -14,3 +14,5 @@ run_list 'python::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'python', path: '.'
+
+cookbook 'python', '~> 1.4.6', :supermarket
